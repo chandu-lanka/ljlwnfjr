@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 200px;
+  width: 100%;
+  height: 100px;
+  background-color: var(--theme);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer__logo {
+  width: 80px;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.footer__logo:hover {
+  transform: rotate(360deg);
+}
+
+.copyright {
+  color: white;
+}
+
+.youtube_channel_name {
+  color: white;
+}
+
+.footer__logo__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    flex-direction: column;
+    height: 200px;
+  }
+}
